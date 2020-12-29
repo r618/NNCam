@@ -7,7 +7,7 @@ sealed class CameraController : MonoBehaviour
 {
     #region Hidden asset references
 
-    [SerializeField, HideInInspector] Unity.Barracuda.NNModel _model = null;
+    [SerializeField] Unity.Barracuda.NNModel _model = null;
     [SerializeField, HideInInspector] ComputeShader _converter = null;
 
     #endregion
